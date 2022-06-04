@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Магазин для предприятия</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--------------- Шапка сайта --------------->
+	<header>
+		<div class="nav">
+			<h2>Logotype</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="catalog.html">Catalog</a></li>
+				<li><a href="notfound.html">Contact us</a></li>
+				<li><a href="notfound.html">About us</a></li>
+			</ul>
+			<div class="prof">
+				<a href="profile.html"><div class="photo"><img src="images\profile.jpg" width="50px" height="50px"></div></a>
+				<a href="profile.html">Profile</a>
+			</div>	
+		</div>
+	</header>
+
+	<!--------------- Рекламный баннер --------------->
+	<section class="poster">
+		<div class="poster_text">
+			<h4>Logotype</h4>
+			<h1>Welcome on our site</h1>
+		</div>
+	</section>
+	<main>
+		<!--------------- Контент главной страницы --------------->
+		<section class="home">
+			<!--------------- Слайдер с сотрудниками --------------->
+			<h3>Наши сотрудники</h3>
+			<div class="slider">
+				<button class="arrow"><img src="icons\left.svg" width="48px" height="48px"></button>
+				<div class="cards">
+					<!--------------- Сотрудник 1 --------------->
+					<div class="card">
+						<div class="card_image">
+							<img src="images\sotrud1.jpg" width="300px" height="150px">
+						</div>
+						<h3>Иванова Ольга</h3>
+						<button>О нас</button>
+						<p>Дизайнер</p>
+					</div>
+					<!--------------- Сотрудник 2 --------------->
+					<div class="card">
+						<div class="card_image">
+							<img src="images\sotrud2.jpg" width="300px" height="150px">
+						</div>
+						<h3>Петров Артем</h3>
+						<button>О нас</button>
+						<p>Менеджер</p>
+					</div>
+					<!--------------- Сотрудник 3 --------------->
+					<div class="card">
+						<div class="card_image">
+							<img src="images\sotrud3.jpg" width="300px" height="150px">
+						</div>
+						<h3>Мамедов Ахмед</h3>
+						<button>О нас</button>
+						<p>SMM-специалист</p>
+					</div>
+				</div>
+				<button class="arrow"><img src="icons\right.svg" width="48px" height="48px"></button>
+			</div>
+			<!--------------- Посты на главной странице --------------->
+			<div class="news">
+				<!--------------- Недавние посты (БОЛЬШИЕ) --------------->
+				<div class="big">
+					<!--------------- Пост 1 --------------->
+					<div class="post">
+						<div class="post_image">
+							<div style="overflow: hidden;">
+								<img src="images\post1.jpg" width="730px" height="400px">
+							</div>
+							<div class="post_date">
+								<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+								<span>2 Комментария</span>
+							</div>
+						</div>
+						<div class="post_info">
+							<h2>Stickers on botle</h2>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea porro perferendis cum explicabo, quasi nobis non dolores, quibusdam reiciendis! Dolores officiis recusandae dolore dicta impedit a quisquam sit necessitatibus ex.</p>
+							<button>Читать полностью</button>
+						</div>
+					</div>
+					<hr>
+					<!--------------- Пост 2 --------------->
+					<div class="post">
+						<div class="post_image">
+							<div style="overflow: hidden;">
+								<img src="images\post2.jpg" width="730px" height="400px">
+							</div>
+							<div class="post_date">
+								<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+								<span>2 Комментария</span>
+							</div>
+						</div>
+						<div class="post_info">
+							<h2>Stickers on laptop</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus impedit ducimus sunt, ab, error eum laudantium quisquam sed. Ab dolorum iusto vitae illo recusandae similique nam, omnis asperiores minus deleniti!</p>
+							<button>Читать полностью</button>
+						</div>
+					</div>
+					<hr>
+					<!--------------- Пост 3 --------------->
+					<div class="post">
+						<div class="post_image">
+							<div style="overflow: hidden;">
+								<img src="images\post3.jpg" width="730px" height="400px">
+							</div>
+							<div class="post_date">
+								<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+								<span>2 Комментария</span>
+							</div>
+						</div>
+						<div class="post_info">
+							<h2>Covid Vaccine</h2>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo nisi similique maiores, exercitationem incidunt eligendi cumque quas pariatur quia adipisci alias quo ea, blanditiis autem quis, optio eum ad.</p>
+							<button>Читать полностью</button>
+						</div>
+					</div>
+				</div>
+				<!--------------- Популярные посты (МАЛЕНЬКИЕ) --------------->
+				<div class="small">
+					<h3>Популярные записи</h3>
+					<div class="popup_posts">
+						<!--------------- Популярный пост 1 --------------->
+						<div class="popup">
+							<div class="post_image">
+								<div style="overflow: hidden;">
+									<img src="images\popup1.jpg" width="350px" height="200px">
+								</div>
+								<div class="popup_date">
+									<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+									<span>2 Комментария</span>
+								</div>
+							</div>
+							<h4>Popular post title</h4>
+						</div>
+						<!--------------- Популярный пост 2 --------------->
+						<div class="popup">
+							<div class="post_image">
+								<div style="overflow: hidden;">
+									<img src="images\popup2.jpg" width="350px" height="200px">
+								</div>
+								<div class="popup_date">
+									<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+									<span>2 Комментария</span>
+								</div>
+							</div>
+							<h4>Popular post title</h4>
+						</div>
+						<!--------------- Популярный пост 3 --------------->
+						<div class="popup">
+							<div class="post_image">
+								<div style="overflow: hidden;">
+									<img src="images\popup3.jpg" width="350px" height="200px">
+								</div>
+								<div class="popup_date">
+									<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+									<span>2 Комментария</span>
+								</div>
+							</div>
+							<h4>Popular post title</h4>
+						</div>
+						<!--------------- Популярный пост 4 --------------->
+						<div class="popup">
+							<div class="post_image">
+								<div style="overflow: hidden;">
+									<img src="images\popup4.jpg" width="350px" height="200px">
+								</div>
+								<div class="popup_date">
+									<span><img src="icons\calendar.svg" width="14px" height="14px">  30 Марта 2022 г.</span>
+									<span>2 Комментария</span>
+								</div>
+							</div>
+							<h4>Popular post title</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--------------- Подвал страницы --------------->
+	<footer>
+		<div class="follow">
+			<h2>Подписаться на новости</h2>
+			<input type="text" placeholder="Input your E-mail">
+			<button>Subscribe</button>
+		</div>
+		<div class="footer_up">
+			<div class="contacts">
+				<h2>Contacts</h2>
+				<p>Тел: <a href="notfound.html">+7(900) 900 90-90</a></p>
+				<p>E-mail: <a href="notfound.html">support_mailto@mail.ru</a></p>
+			</div>
+			<div class="socials">
+				<h2>Follow us</h2>
+				<p>Наши социальные сети</p>
+				<div class="soc_icons">
+					<a href="https://vk.com/" target="_blank"><img src="icons\vk.svg" width="20px" height="20px"></a>
+					<a href="https://www.instagram.com" target="_blank"><img src="icons\instagram.svg" width="20px" height="20px"></a>
+					<a href="https://web.telegram.org/" target="_blank"><img src="icons\telegram.svg" width="20px" height="20px"></a>
+					<a href="https://facebook.com/" target="_blank"><img src="icons\facebook.svg" width="20px" height="20px"></a>
+					<a href="https://twitter.com/" target="_blank"><img src="icons\twitter.svg" width="20px" height="20px"></a>
+				</div>
+			</div>
+			<div class="about">
+				<h2>About us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, a nam deleniti labore est sit excepturi sed dignissimos quisquam quibusdam accusantium, reprehenderit asperiores. Consequuntur, velit! Fugiat voluptatum sint dolore consectetur.</p>
+			</div>
+		</div>
+		<div class="footer_down">
+			<p>CopyRight © 2022 | made by student</p>	
+		</div>
+	</footer>
+</body>
+</html>
